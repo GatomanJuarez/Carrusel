@@ -1,0 +1,37 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="stylesheets/glider.css">
+	<script src="javascripts/prototype.js"></script>
+	<script src="javascripts/effects.js"></script>
+	<script src="javascripts/glider.js"></script>
+</head>
+<body>
+<div class="marjen">
+    <section class="papa">
+  <div id="my-glider">
+		<div class="scroller">
+			<div class="content">
+				<div class="section" id="section1">
+					<img src="Imagenes/Hombre1.jpg">
+				</div>
+				<div class="section" id="section2">
+                    <img src="Imagenes/Hombre4.jpg">
+				</div>
+				<div class="section" id="section3">				
+					<img src="Imagenes/Hombre5.jpg">
+				</div>
+		</div>			
+	</div>
+   	</section><section class="hijo">
+	<a href="#" onclick="my_glider.previous();return false;">
+        <button><i class="glyphicon glyphicon-menu-left"></i></button></a>   
+        <a href="#" onclick="my_glider.next();return false"><button><i class="glyphicon glyphicon-menu-right"></i></button></a>
+	<script type="text/javascript" charset="utf-8">
+		var my_glider = new Glider('my-glider', {duration:0.5});
+	</script>
+        </section>
+	</div>
+</div>
+</body>
+</html>

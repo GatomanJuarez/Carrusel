@@ -1,0 +1,26 @@
+div.scroller { 	 
+	height: 645px;
+	overflow: hidden;
+	}
+	div.scroller div.section {	
+		width:645px;
+
+		padding:1em;		
+		}
+
+	div#section2 {
+		background:#666666;
+		color:#ffffff;
+		}
+.marjen{
+    margin-left: 50px;
+}
+.color{
+    background-color: red;
+}
+.papa{
+    position: absolute;
+}
+.hijo{
+    position: relative;
+}
